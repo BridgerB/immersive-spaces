@@ -17,7 +17,7 @@ struct ImmersiveView: View {
     // var scene: any SceneContent = TimesSquare()
     // var scene: any SceneContent = ISS()
     // var scene: any SceneContent = AncientEgypt()
-    var scene: any SceneContent = CherryBlossomGarden()
+    var scene: any SceneContent = CyberpunkCity()
 
     var body: some View {
         RealityView { content in
