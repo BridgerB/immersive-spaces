@@ -3,6 +3,7 @@
 //  immersive-spaces
 //
 
+import SwiftUI
 import RealityKit
 import UIKit
 

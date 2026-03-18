@@ -11,14 +11,11 @@ import RealityKitContent
 
 struct ImmersiveView: View {
     @Environment(AppModel.self) var appModel
-    var scene: any SceneContent = RainbowAssortmentScene()
+    var scene: any SceneContent = MountainScene()
 
     var body: some View {
         RealityView { content in
-            if let immersiveContentEntity = try? await Entity(named: "Immersive", in: realityKitContentBundle) {
-                content.add(immersiveContentEntity)
-            }
-            await scene.build(content: &content)
+await scene.build(content: &content)
         }
     }
 }
