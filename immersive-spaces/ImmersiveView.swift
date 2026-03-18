@@ -11,7 +11,9 @@ import RealityKitContent
 
 struct ImmersiveView: View {
     @Environment(AppModel.self) var appModel
-    var scene: any SceneContent = MountainScene()
+    var scene: any SceneContent = BigSur()
+    // var scene: any SceneContent = Mountain()
+    // var scene: any SceneContent = RainbowAssortment()
 
     var body: some View {
         RealityView { content in

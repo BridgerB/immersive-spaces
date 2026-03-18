@@ -7,7 +7,7 @@ import SwiftUI
 import RealityKit
 import UIKit
 
-struct RainbowAssortmentScene: SceneContent {
+struct RainbowAssortment: SceneContent {
     func build(content: inout RealityViewContent) async {
         let colors: [UIColor] = [.red, .orange, .yellow, .green, .cyan, .blue, .purple, .systemPink]
         let positions: [(Float, Float, Float)] = [

@@ -7,7 +7,7 @@ import SwiftUI
 import RealityKit
 import UIKit
 
-struct MountainScene: SceneContent {
+struct Mountain: SceneContent {
     func build(content: inout RealityViewContent) async {
         addSky(to: &content)
         addGround(to: &content)
